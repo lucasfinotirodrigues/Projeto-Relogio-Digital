@@ -50,3 +50,47 @@ body{
 .relogio span.tempo {
     font-size: 10px;
 }
+
+
+
+/*Responsividade*/
+
+@media screen and (min-width:470px) and (max-width: 570px) {
+    .relogio div{
+        height: 140px;
+        width: 120px;
+    }
+
+    .relogio span {
+        font-weight: regular;
+        font-size: 56px;
+    }
+    
+    .relogio span.tempo {
+        font-size: 8px;
+    }
+    
+}
+
+
+@media screen and (min-width:300px) and (max-width: 469px) {
+
+    /* body{
+        height: 469px;
+        width: 100%;
+    } */
+    .relogio div{
+        height: 110px;
+        width: 90px;
+    }
+
+    .relogio span {
+        font-weight: regular;
+        font-size: 44px;
+    }
+    
+    .relogio span.tempo {
+        font-size: 6px;
+    }
+}
+
